@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="14" version="2.0">
 <workbenchAdvisor/>
-<window height="806" width="1130" x="83" y="115">
+<window height="788" width="1122" x="62" y="122">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -50,7 +50,9 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (18 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="189" org.eclipse.ui.ide.resourceField="123" org.eclipse.ui.ide.severityAndDescriptionField="387"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -112,7 +114,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -274,9 +276,9 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.19606088" ratioLeft="219" ratioRight="898" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.479638" ratioLeft="318" ratioRight="345" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.23534717" ratioLeft="261" ratioRight="848" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.81297135" ratioLeft="539" ratioRight="124" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
@@ -326,38 +328,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="README" tooltip="Support7Demos/docs/README">
-<persistable path="/Support7Demos/docs/README"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DisplayMessageActivity.java" tooltip="SupportV7Demo/src/com/example/android/supportv7/DisplayMessageActivity.java">
+<persistable path="/SupportV7Demo/src/com/example/android/supportv7/DisplayMessageActivity.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LocalPlayer.java" tooltip="Support7Demos/src/com/example/android/supportv7/media/LocalPlayer.java">
-<persistable path="/Support7Demos/src/com/example/android/supportv7/media/LocalPlayer.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_display_message.xml" tooltip="SupportV7Demo/res/layout/activity_display_message.xml">
+<persistable path="/SupportV7Demo/res/layout/activity_display_message.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GridLayout3.java" tooltip="Support7Demos/src/com/example/android/supportv7/view/GridLayout3.java">
-<persistable path="/Support7Demos/src/com/example/android/supportv7/view/GridLayout3.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="SupportV7Demo/res/values/strings.xml">
+<persistable path="/SupportV7Demo/res/values/strings.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Player.java" tooltip="Support7Demos/src/com/example/android/supportv7/media/Player.java">
-<persistable path="/Support7Demos/src/com/example/android/supportv7/media/Player.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="display_message.xml" tooltip="SupportV7Demo/res/menu/display_message.xml">
+<persistable path="/SupportV7Demo/res/menu/display_message.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DisplayMessageActivity.java" tooltip="heather/src/net/lamphp/volvo/DisplayMessageActivity.java">
-<persistable path="/heather/src/net/lamphp/volvo/DisplayMessageActivity.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="display_message.xml" tooltip="heather/res/menu/display_message.xml">
+<persistable path="/heather/res/menu/display_message.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="heather/src/net/lamphp/volvo/MainActivity.java">
-<persistable path="/heather/src/net/lamphp/volvo/MainActivity.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="grid_layout_4.xml" tooltip="SupportV7Demo/res/layout/grid_layout_4.xml">
+<persistable path="/SupportV7Demo/res/layout/grid_layout_4.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="grid_layout_2.xml" tooltip="Support7Demos/res/layout-land/grid_layout_2.xml">
-<persistable path="/Support7Demos/res/layout-land/grid_layout_2.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="SupportV7Demo/AndroidManifest.xml">
+<persistable path="/SupportV7Demo/AndroidManifest.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="grid_layout_2.xml" tooltip="Support7Demos/res/layout/grid_layout_2.xml">
-<persistable path="/Support7Demos/res/layout/grid_layout_2.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GridLayout4.java" tooltip="SupportV7Demo/src/com/example/android/supportv7/view/GridLayout4.java">
+<persistable path="/SupportV7Demo/src/com/example/android/supportv7/view/GridLayout4.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="grid_layout_1.xml" tooltip="Support7Demos/res/layout/grid_layout_1.xml">
-<persistable path="/Support7Demos/res/layout/grid_layout_1.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GridLayout1.java" tooltip="SupportV7Demo/src/com/example/android/supportv7/view/GridLayout1.java">
+<persistable path="/SupportV7Demo/src/com/example/android/supportv7/view/GridLayout1.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Support7Demos/AndroidManifest.xml">
-<persistable path="/Support7Demos/AndroidManifest.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="SupportV7Demo/gen/com/example/android/supportv7/R.java">
+<persistable path="/SupportV7Demo/gen/com/example/android/supportv7/R.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ActionBarDisplayOptions.java" tooltip="Support7Demos/src/com/example/android/supportv7/app/ActionBarDisplayOptions.java">
-<persistable path="/Support7Demos/src/com/example/android/supportv7/app/ActionBarDisplayOptions.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="heather/AndroidManifest.xml">
+<persistable path="/heather/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_display_message.xml" tooltip="heather/res/layout/activity_display_message.xml">
+<persistable path="/heather/res/layout/activity_display_message.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main_activity_actions.xml" tooltip="heather/res/menu/main_activity_actions.xml">
+<persistable path="/heather/res/menu/main_activity_actions.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="heather/res/values/strings.xml">
+<persistable path="/heather/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="dimens.xml" tooltip="heather/res/values/dimens.xml">
+<persistable path="/heather/res/values/dimens.xml"/>
 </file>
 </mruList>
 </workbench>

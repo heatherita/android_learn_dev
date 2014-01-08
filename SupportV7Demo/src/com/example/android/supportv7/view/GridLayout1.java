@@ -16,19 +16,26 @@
 
 package com.example.android.supportv7.view;
 
+
 import com.example.android.supportv7.R;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 /**
  * Demonstrates using GridLayout to build the same "Simple Form" as in the
  * LinearLayout and RelativeLayout demos.
  */
 public class GridLayout1 extends Activity {
+		
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.grid_layout_1);
     }
+    
 }

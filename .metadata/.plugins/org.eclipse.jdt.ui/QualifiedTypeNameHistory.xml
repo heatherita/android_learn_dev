@@ -5,4 +5,5 @@
 <fullyQualifiedTypeName name="android.support.v7.app.ActionBarActivity"/>
 <fullyQualifiedTypeName name="android.view.MenuInflater"/>
 <fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="com.example.android.supportv7.DisplayMessageActivity"/>
 </qualifiedTypeNameHistroy>

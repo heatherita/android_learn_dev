@@ -16,19 +16,37 @@
 
 package com.example.android.supportv7.view;
 
+import com.example.android.supportv7.DisplayMessageActivity;
 import com.example.android.supportv7.R;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 /**
  * Demonstrates using GridLayout to build the same "Simple Form" as in the
  * LinearLayout and RelativeLayout demos.
  */
 public class GridLayout4 extends Activity {
+	public final static String EXTRA_MESSAGE = "com.example.android.supportv7.view.MESSAGE";
+	
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.grid_layout_4);
+    }
+    
+    /** Called when the user clicks the Send button */
+    public void sendMessage(View view) {
+        // Do something in response to button
+    	Intent intent = new Intent(this, DisplayMessageActivity.class);
+    	EditText editText = (EditText) findViewById(R.id.edit_message);
+    	String message = editText.getText().toString();
+    	intent.putExtra(EXTRA_MESSAGE, message);
+    	startActivity(intent);
+    	
     }
 }

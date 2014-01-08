@@ -25,13 +25,7 @@
     app:columnCount="4"
     >
     <TextView
-        android:text="Email setup"
-        android:textSize="32dip"
-        app:layout_columnSpan="4"
-        app:layout_gravity="center_horizontal"
-    />
-    <TextView
-        android:text="Are you a sex addict?:"
+        android:text="How do you feel?"
         android:textSize="16dip"
         app:layout_columnSpan="4"
         app:layout_gravity="left"
@@ -41,24 +35,15 @@
         app:layout_gravity="right"
     />
     <EditText
-        android:ems="10"
+        android:id="@+id/edit_message"
+        android:ems="1000"
     />
-    <TextView
-        android:text="Password:"
-        app:layout_column="0"
-        app:layout_gravity="right"
-    />
-    <EditText
-        android:ems="8"
-    />
+   
     <Button
-        android:text="Manual setup"
+        android:text="@string/grid_layout_4_button"
         app:layout_row="5"
         app:layout_column="3"
+        android:onClick="sendMessage"
     />
-    <Button
-        android:text="Next"
-        app:layout_column="3"
-        app:layout_gravity="fill_horizontal"
-    />
+
 </android.support.v7.widget.GridLayout>
