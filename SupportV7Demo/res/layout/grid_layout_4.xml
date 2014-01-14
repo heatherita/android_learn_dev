@@ -31,7 +31,7 @@
         app:layout_gravity="left"
     />
     <TextView
-        android:text="Email address:"
+        android:text="Say it!"
         app:layout_gravity="right"
     />
     <EditText
@@ -40,10 +40,27 @@
     />
    
     <Button
-        android:text="@string/grid_layout_4_button"
+        android:text="@string/grid_layout_4_broadcast_button"
         app:layout_row="5"
         app:layout_column="3"
         android:onClick="sendMessage"
-    />
+    />    
+    <Button
+        android:text="@string/grid_layout_4_save_button"
+        app:layout_row="6"
+        app:layout_column="3"
+        android:onClick="saveMessage"
+    />    
+    <Button
+        android:text="@string/grid_layout_4_get_button"
+        app:layout_row="7"
+        app:layout_column="3"
+        android:onClick="getMessage"
+    />    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mccall_2401" />
 
 </android.support.v7.widget.GridLayout>

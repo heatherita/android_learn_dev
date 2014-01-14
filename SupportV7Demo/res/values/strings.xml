@@ -17,7 +17,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="activity_sample_code">Support v7 Demos</string>
+    <string name="activity_sample_code">Heathers Practice App</string>
 
     <!-- MediaRouter -->
 
@@ -46,7 +46,10 @@
     <string name="grid_layout_1_instructions">Type here:</string>
     <string name="grid_layout_1_ok">Ok</string>
     <string name="grid_layout_1_cancel">Cancel</string>
-    <string name="grid_layout_4_button">submit</string>
+    <string name="grid_layout_4_broadcast_button">broadcast it!</string>
+    <string name="grid_layout_4_save_button">save thought</string>
+    <string name="grid_layout_4_get_button">all my thoughts</string>
+    <string name="grid_layout_4_delete_button">delete all</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">whatever</string>
 

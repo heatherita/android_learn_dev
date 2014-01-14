@@ -36,7 +36,7 @@
          remote display using system alert window.
     -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />    
     <uses-sdk
         android:minSdkVersion="7"
         android:targetSdkVersion="17" />
@@ -52,14 +52,11 @@
         android:requiresSmallestWidthDp="320" />
 
     <application
-        android:hardwareAccelerated="true"
-        android:icon="@drawable/app_sample_code"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/activity_sample_code" >
         <activity android:name="com.example.android.supportv7.Support7Demos" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.MAIN" />                                 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -77,7 +74,6 @@
             android:theme="@style/Theme.AppCompat" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="com.example.android.supportv7.SAMPLE_CODE" />
             </intent-filter>
         </activity>
@@ -145,18 +141,9 @@
             android:label="@string/grid_layout_4" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="com.example.android.supportv7.SAMPLE_CODE" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="com.example.android.supportv7.view.DisplayMessageActivity"
-            android:parentActivityName=".view.GridLayout4" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".view.GridLayout4" />
-        </activity>
-
+        </activity>        
         <!-- Action Bar Samples -->
         <activity
             android:name="com.example.android.supportv7.app.ActionBarMechanics"
@@ -220,7 +207,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.supportv7.DisplayMessageActivity"
+            android:name="com.example.android.supportv7.view.DisplayMessageActivity"
             android:label="@string/title_activity_display_message"
             android:parentActivityName="com.example.android.supportv7.view.GridLayout4" >
             <meta-data
