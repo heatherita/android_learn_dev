@@ -109,10 +109,6 @@ public class GridLayout4 extends Activity {
 		e.printStackTrace();
 	}
     }
-    
-    public void displayImage(View view){
-    	ImageView image = (ImageView) findViewById(R.id.imageView1);
-    	image.setImageResource(R.drawable.mccall_2401);
-    }
+        
     
 }
